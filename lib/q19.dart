@@ -5,7 +5,6 @@
 //execução. Ao cadastrar uma pessoa,
 //calcule o IMC (Índice de Massa Corporal).
 //Ao final, exiba a lista de pessoas (com seus respectivos atributos).
-import 'dart:ffi';
 import 'dart:io';
 
 void q19() {
@@ -34,8 +33,8 @@ void q19() {
 class Pessoa {
   final String? nome;
   final double? peso, altura, imc;
-  Pessoa(this.nome, this.peso, this.altura, this.imc);
 
+  Pessoa(this.nome, this.peso, this.altura, this.imc);
   @override
   String toString() {
     String a;
